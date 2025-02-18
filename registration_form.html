@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<!-- <link rel="stylesheet" href="style.css"> -->
+<body>
+    <center>
+        <h1>Registration Form</h1>
+            <form>
+                <table cellpadding="5" bgcolor="#7d7979">
+                    <tr>
+                        <td width="120">Student No.</td>
+                        <td>:</td>
+                        <td><input type="text" name="student_no" placeholder="Student No." value="24-01342" disabled></td>
+                    </tr>
+                    <tr>
+                        <td width="120">Student Name</td>
+                        <td>:</td>
+                        <td><input type="text" name="l_name" placeholder="Last Name"> 
+                            <input type="text" name="f_name" placeholder="First Name"> 
+                            <input type="text" name="m_name" placeholder="Middle Name"></td>
+                    </tr>
+                    <tr>
+                        <td width="120">Course</td>
+                        <td>:</td>
+                        <td><select name="course">
+                            <option value="" disabled selected>Select a course</option>
+                            <option value="BSCS">BSCS</option>
+                            <option value="BSIT">BSIT</option>
+                            <option value="BSHRM">BSHRM</option>
+                            <option value="BSN">BSN</option>
+                            <option value="AB_ENGLISH">AB ENGLISH</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td width="120">Year Level</td>
+                        <td>:</td>
+                        <td><input type="number" name="year_level" min="1" max="4"></td>
+                    </tr>
+                    <tr>
+                        <td width="120">Student Type</td>
+                        <td>:</td>
+                        <td><input type="radio" name="student_type">Old</td>
+                        <td><input type="radio" name="student_type">New</td>
+                        <td><input type="radio" name="student_type">Transferee</td>
+                    </tr>
+                    <tr>
+                        <td width="120">Birth Date</td>
+                        <td>:</td>
+                        <td><input type="date" name="b_date"></td>
+                    </tr>
+                    <tr>
+                        <td width="120">Gender</td>
+                        <td>:</td>
+                        <td><input type="radio" name="gender">Male</td>
+                        <td><input type="radio" name="gender">Female</td>
+                    </tr>
+                    <tr>
+                        <td width="120">Requirements</td>
+                        <td>:</td>
+                        <td><input type="checkbox" name="f_137">Form 137
+                        <input type="checkbox" name="g_moral">Good Moral
+                        <input type="checkbox" name="b_cert">Birth Certificate</td>
+                    </tr>
+                    <tr>
+                        <td width="120">Email</td>
+                        <td>:</td>
+                        <td><input type="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td width="120">Password</td>
+                        <td>:</td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td width="120">Confirm Password</td>
+                        <td>:</td>
+                        <td><input type="password" name="c_password"></td>
+                    </tr>
+                    <tr>
+                        <td width="120">Picture</td>
+                        <td>:</td>
+                        <td><input type="file" name="picture" accept="image/*"></td>
+                    </tr>
+                    <tr>
+                        <td width="120">Remarks</td>
+                        <td>:</td>
+                        <td><textarea rows="10" cols="40"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="center"><input type="submit" name="send" value="Submit"></td>
+                    </tr>
+                </table>
+            </form>
+    </center>
+</body>
+</html>
