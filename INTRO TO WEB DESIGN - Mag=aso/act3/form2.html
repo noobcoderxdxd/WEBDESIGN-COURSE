@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSS Member Registration</title>
+    <style>
+        .table1, .table3 {
+            background: #3673A0;
+            padding: 20px;
+            margin-right: 300px;
+            margin-left: 300px;
+        }
+        .table2, .table4 {
+            background: rgb(187, 188, 189);
+            margin-right: 300px;
+            margin-left: 300px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>SSS Member Registration</h1></center>
+    
+    <div class="table1">
+        <table align="center">
+            <tr>
+                <td><h3>Personal Data</h3></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="table2"> 
+        <table cellpadding="5">
+           <tr>
+            <td colspan="2"><input type="text" name="l_name" placeholder="Last Name"> 
+                <input type="text" name="g_name" placeholder="Given Name"> <input type="text" name="m__name" placeholder="Middle Name"> 
+                <input type="text" name="suffix" placeholder="Suffix"></td>
+           </tr>
+           <tr>
+                <td>Birth Date: <input type="date" name="b_date"></td>
+                <td>Birth Place: <input type="text" name="b_date"></td>
+           </tr>
+           <tr>
+                <td>Gender:<input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female</td>
+                <td>Civil Status: <select name="dropdown" id="dropdown">
+                    <option value="" disabled selected></option>
+                    <option value="option1">Single</option>
+                    <option value="option2">Married</option>
+                    <option value="option3">Widowed</option>
+                </select>
+           </tr>
+           <tr>
+            <td>Nationality: <input type="text" name="Nationality"></td>
+            <td>Religion: <input type="text" name="religion"></td>
+           </tr>
+           <tr>
+            <td>Home Address: <input type="text" name="address"></td>
+            <td>Mobile Number: <input type="number" name="m_number"></td>
+           </tr>
+           <tr>
+            <td>Attach 2x2 ID Picture <input type="file" name="picture" accept="image/*"></td>
+           </tr>
+        </table>
+    </div>
+
+
+    <div class="table3">
+        <table align="center">
+            <tr>
+                <td><h3>Benefeciares</h3></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="table4"> 
+        <table >
+            <tr>
+                <td colspan="2">Name of Beneficiary</td>
+                <td>Birth Date</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" placeholder="Name" class="name"></td>
+                <td><input type="date" name="b_date1"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" placeholder="Name" class="name2"></td>
+                <td><input type="date" name="b_date2"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" placeholder="Name" class="name3"></td>
+                <td><input type="date" name="b_date3"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" placeholder="Name" class="name4"></td>
+                <td><input type="date" name="b_date4"></td>
+            </tr>
+            <tr>
+                <td>Documents Submitted: </td>
+                <td>
+                    <input type="checkbox" name="b_cert">Birth Certificate
+                    <input type="checkbox" name="c_cert">Certificate of Employment
+                    <input type="checkbox" name="m_cert">Marriage Certificate
+                </td>
+            </tr>
+            
+        </table>
+        <table style="margin-left: 870px;">
+            <tr>
+                <td align="right"><input type="submit" placeholder="Submit"></td>
+            </tr>
+        </table>
+        
+    </div>
+    
+    
+
+
+</body>
+</html>

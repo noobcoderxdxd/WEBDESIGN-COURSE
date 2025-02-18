@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p{
+            color: rgb(119, 3, 252);
+            text-align: center;
+             
+        }
+        body {
+            background: url(images/giannis.jpg) fixed center no-repeat;
+            background-size: 600px;
+            margin: 0;
+        }
+        .parent{
+            color: rgb(2, 24, 83);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 200%;
+            text-align: center;
+            background-color: rgb(88, 88, 92);
+            height: 400px;
+            width: 400px;
+            /* border-style: solid dotted solid dotted;
+            
+            border-width: 20px;
+            border-color: darkcyan; */
+            border: dashed 20px rgb(10, 10, 10);
+            border-radius: 50px 10px;
+            margin: 50px auto;
+        }
+        .child{
+            background-color: rgb(92, 68, 33);
+            height: 100px;
+            width: 100px;
+            margin: inherit;
+            padding: 20px 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">this is a title</h1>
+    <p>This is a paratpafadfknafndajdhaddaasasadasdasda
+        sdaafdadasdasdasdasasdasdasdasdasdasdasdass
+        asdasdasdasdasas, asdasdasdasfasdas as,dasdasdasd 
+        asdasd
+    </p>
+
+    <div class="parent">
+        <div class="child">
+            child
+        </div>
+    </div>
+</body>
+</html>

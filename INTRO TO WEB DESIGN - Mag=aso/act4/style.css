@@ -1,0 +1,143 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    
+}
+.top-nav{
+    width: 80%;
+    background-color: #3674B5;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.top-nav a{
+    text-decoration: none;
+    padding: 20px ;
+    color: ghostwhite;
+    background-color: inherit;
+    float: left; /*stick to the left side of its parent of container*/
+}
+.top-nav a:hover, .dropdown-btn:hover{
+    background-color: #143D60;
+}
+.dropdown-container{
+    float: left;
+    overflow: hidden;
+}
+.dropdown-btn{
+    padding: 20px;
+    border: none;
+    background-color: #3674B5;
+    color: ghostwhite;
+    font-size: 17px;
+}
+.dropdown-content a{
+    color: darkblue;
+    background-color: ghostwhite;
+    padding: 12px 16px;
+    float: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: lightgray;
+}
+.dropdown-content{
+    display: none;
+    position: absolute; /*it will be position outside the parent    */
+    min-width: 160px;
+    z-index: 1; /*on top of the container */
+}
+.dropdown-container:hover .dropdown-content{
+    display: block;
+}
+.banner{
+    width: 80%;
+    height: 300px;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+.body{
+    width: 80%;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    display: flex;
+}
+.submenu-con{
+    width: 30%;
+    padding-top: 20px;
+}
+.submenu{
+    width: 90%;
+    margin: 0px auto
+}
+.submenu-header, .article-header{
+    height: 60px;
+    background-color: #3674B5;
+    /* cornflowerblue */
+    color: ghostwhite;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;/*display block is the default, displat on block of one another, display flex cinomnompute ung width ng parent container, it will align the items to center */
+    justify-content: center;
+    align-items: center;
+}
+.submenu-content a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 10px 20px;
+}
+.submenu-content{
+    padding: 20px;
+    background-color: lightblue;
+    margin: 0px auto;
+}
+a.active{
+    border-left: solid 5px #3674B5;
+}
+.content-con{
+    width: 70%;
+    padding: 0px 30 20px 10px;
+}
+.article-con{
+    width: 80%;
+    height: 300px;
+    background-color: lightblue;
+    margin: 0 auto;
+    display: flex;
+}
+.article{
+    height: 300px;
+    flex: 1;
+}
+/* .article:nth-child(2){
+    background-color: #697565;
+} */
+.article-list a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+.article-list{
+    height: 240px;
+    padding: 0px 20px 0px 0px;
+    overflow-y: scroll;
+}
+.article-header.mid{
+    background-color: #344CB7;
+}
+.footer{
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #3674B5;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+.content{
+    line-height: 1.5rem;
+}

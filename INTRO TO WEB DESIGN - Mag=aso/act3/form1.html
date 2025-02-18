@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSS Member Registration</title>
+    <style>
+        .table1, .table3 {
+            background: #3673A0;
+            padding: 20px;
+            margin-right: 300px;
+            margin-left: 300px;
+        }
+        .table2, .table4 {
+            background: rgb(187, 188, 189);
+            margin-right: 300px;
+            margin-left: 300px;
+            padding: 20px;
+        } 
+        img{
+            height: 50px;
+            width: 50px;;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>SSS Member Registration</h1></center>
+    
+    <div class="table1">
+        <table align="center">
+            <tr>
+                <td><h3>REGISTRATION PREFERENCE</h3></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="table2"> 
+        <table cellpadding="5" style="width: 100%;">
+            <tr>
+                <td colspan="2">Kindly choose your registration preference.</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="reg_type"> Savings Account Number</td>
+                <td><input type="radio" name="reg_type"> Date of Loan</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="reg_type"> UMID Card</td>
+                <td><input type="radio" name="reg_type"> Transaction No. in UMID/Personal Record</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="reg_type"> Employer Household ID</td>
+                <td><input type="radio" name="reg_type"> Check No. of any monthly pension</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="radio" name="reg_type"> Payment Reference Number</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="number" name="umid_pin" placeholder="UMID CARD PIN Code"></td>
+            </tr>
+
+            <tr>
+                <td>Mother's Maiden Name reported in the E6 - UMID Card Application Form</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" name="l_name" placeholder="Last Name"> 
+                <input type="text" name="g_name" placeholder="Given Name"> <input type="text" name="m__name" placeholder="Middle Name"> 
+                <input type="text" name="e_name" placeholder="Extension Name"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="table3">
+        <table align="center">
+            <tr>
+                <td><h3>ACCOUNT INFORMATION</h3></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="table4"> 
+        <table style="width: 100%;">
+            <tr>
+                <td colspan="2"><input type="number" name="crs_number" placeholder="CRN/SS Number"></td>
+                <td><input type="number" name="mobile_num" placeholder="Mobile Number"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="email" name="email" placeholder="Email Address"></td>
+                <td><input type="email" name="c_email" placeholder="Confirm Email Address"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="number" name="p_user_id" placeholder="Preferred User ID"></td>
+                <td><input type="number" name="c_user_id" placeholder="Confirm Preferred User ID"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="password" name="p_password" placeholder="Preferred Password"></td>
+                <td><input type="password" name="c_password" placeholder="Confirm Preferred Password"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    <a href="form2.html">
+                        <img src="arrow-removebg-preview.png">
+                    </a>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+</body>
+</html>
